@@ -1,0 +1,23 @@
+baseURL = "https://ipkrylov.ru"
+languageCode = "ru-RU"
+title = "ipkrylov"
+
+[params]
+  description = "Website for ipkrylov.ru"
+  author = "ipkrylov"
+
+[menu]
+  [[menu.main]]
+    name = "Главная"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "О нас"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Контакты"
+    url = "/contact/"
+    weight = 3
+[markup.goldmark.renderer]
+unsafe = true
